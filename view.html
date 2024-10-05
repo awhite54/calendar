@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            background: white;
+            color: black;
+        }
+         
+        th,
+        td {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .form {
+            width: 35%;
+            background-color: #dac4d0 ;
+            float: right;
+        }
+        .main{
+            display: flex;
+            width: 90%;
+            height: 600px;
+        }
+
+        h2{
+            text-align: center;
+            color: #8f5774;
+        }
+  
+        form{
+            text-align: center;
+            color: #8f5774;
+        }
+        label{
+            margin: 10px;
+            color: #8f5774;
+        }
+        button{
+            margin-top: 20px;
+            background-color: #3bddbf;
+            color: #c2496b;
+        }
+        tbody{
+            background-color: #c266a7;
+        }
+        .calendar {
+            background-color: #4c2f6f;
+            box-shadow: 0 0 30px #222222;
+            color: #e7c8e7;
+            width: 65%;
+            float: left;
+        }
+        table{
+            width: 100%;
+            height: 86%;
+        }
+        
+        label{
+            margin: 10px;
+            color: #8f5774;
+        }
+       h1{
+        text-align: center;
+        color: #8f5774;
+       }
+
+    </style>
+</head>
+ 
+<body>
+    <div class = "main">
+        <div class = "calendar">
+
+    <h2 align="center" style="color: rgb(230, 162, 215);">
+        October 2024
+    </h2>
+    <br />
+ 
+    <table bgcolor="lightgrey" align="center"
+        cellspacing="21" cellpadding="21">
+ 
+      
+ 
+        <caption align="top">
+          
+        </caption>
+ 
+      
+ 
+        <thead>
+            <tr>
+                
+                <th style="color: #4c2f6f; background: #e7c8e7">
+                    Sun</th>
+                <th style="color: #4c2f6f; background: #e7c8e7">
+                    Mon</th>
+                <th style="color: #4c2f6f; background: #e7c8e7">
+                    Tue</th>
+                <th style="color: #4c2f6f; background: #e7c8e7">
+                    Wed</th>
+                <th style="color: #4c2f6f; background: #e7c8e7">
+                    Thu</th>
+                <th style="color: #4c2f6f; background: #e7c8e7">
+                    Fri</th>
+                <th style="color: #4c2f6f; background: #e7c8e7">
+                    Sat</th>
+            </tr>
+        </thead>
+ 
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td style="background-color: burlywood;">4</td>
+                <td>5</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    <div class = "form">
+        <h1>Friday October 4th, 2024</h1>
+        <form>
+            <label for="radio-inline"><b>How was your day today?</b></label><br><br>
+            <label class="radio-inline">
+              <input type="radio" name="optradio" checked>Very Bad
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="optradio">Bad
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="optradio">OK
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">Good
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="optradio">Very Good
+              </label>
+              <br><br>
+              <label for="fname"><b>How many hours of sleep did you get last night?</b></label><br><br>
+              <input type="text" id="sleepHours" ><br><br>
+              <label for="fname"><b>What was your estimated daily calorie intake?</b></label><br><br>
+              <input type="text" id="sleepHours" ><br>
+              <p><label for="w3review"><b>Please tell us about your day</b></label></p>
+              <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea><br>
+              <button type="button">Submit!</button>
+          </form>
+        
+</div>
+
+</div>
+</body>
+ 
+</html>
